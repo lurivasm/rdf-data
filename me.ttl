@@ -1,0 +1,18 @@
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/person/Lucia> a schema:Person ;
+    schema:name "Lucia" ;
+    schema:jobTitle "Data Scientist" ;
+    schema:height "1.60"^^xsd:float ;
+    schema:age "25"^^xsd:int ;
+    schema:birthPlace [
+        a schema:Place ;
+        schema:address "Madrid, Spain"
+    ] ;
+    schema:memberOf <https://pietercolpaert.be/teaching/lds/#2024-2025> .
+
+<https://pietercolpaert.be/teaching/lds/#2024-2025> a schema:Course ;
+    schema:givenName "Linked Data & Solid" .
+
+
