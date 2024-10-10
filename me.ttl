@@ -7,10 +7,7 @@
     schema:jobTitle "Data Scientist" ;
     schema:height "1.60"^^xsd:float ;
     schema:age "25"^^xsd:int ;
-    schema:birthPlace [
-        a schema:Place ;
-        schema:address "Madrid, Spain"
-    ] ;
+
     schema:memberOf <https://pietercolpaert.be/teaching/lds/#2024-2025> ;
     foaf:knows <https://thib.goelff.be/me.ttl> ,
              <https://bogaert.cloud/me.ttl> ,
