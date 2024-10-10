@@ -11,11 +11,11 @@
         a schema:Place ;
         schema:address "Madrid, Spain"
     ] ;
-    schema:memberOf <https://pietercolpaert.be/teaching/lds/#2024-2025> ;
-    foaf:knows <https://lurivasm.github.io/rdf-data/me.ttl> ,
-               <https://bogaert.cloud/me.ttl> ,
-               <https://bocaopubliq.github.io/link_data_solid_study/> ,
-               <https://janvanrensbergen.github.io/#me> .
+    schema:memberOf <https://pietercolpaert.be/teaching/lds/#2024-2025> .
+    foaf:knows <https://thib.goelff.be/me.ttl> ,
+             <https://bogaert.cloud/me.ttl> ,
+             <https://janvanrensbergen.github.io/#me> ,
+             <https://bocaopubliq.github.io/link_data_solid_study/> .
 
 <https://pietercolpaert.be/teaching/lds/#2024-2025> a schema:Course ;
     schema:givenName "Linked Data & Solid" .
