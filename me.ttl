@@ -2,7 +2,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<https://lurivasm.github.io/rdf-data/me.ttl> a schema:Person ;
+<https://lurivasm.github.io/rdf-data/me.ttl#me> a schema:Person ;
     schema:name "Lucia" ;
     schema:jobTitle "Data Scientist" ;
     schema:height "1.60"^^xsd:float ;
@@ -16,6 +16,9 @@
              <https://bogaert.cloud/me.ttl> ,
              <https://janvanrensbergen.github.io/#me> ,
              <https://bocaopubliq.github.io/link_data_solid_study/> .
+
+<https://lurivasm.github.io/rdf-data/me.ttl>
+  a <https://schema.org/Document> .
 
 <https://pietercolpaert.be/teaching/lds/#2024-2025> a schema:Course ;
     schema:givenName "Linked Data & Solid" .
